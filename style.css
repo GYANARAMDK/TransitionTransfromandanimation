@@ -14,7 +14,7 @@ div{
     left: 100px;
     /* transition: all 2s ease-in; */
     animation-name: colorAnimate;
-    animation-duration: 0.23s;
+    animation-duration: 3s;
     /* animation-timing-function: ease-in; */
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -22,12 +22,22 @@ div{
 }
 @keyframes colorAnimate
  {
-    from{
+    /* from{
         background-color: rgb(208, 56, 81) ;
     }
     to{
         background-color: black;
+    } */
+     0%{
+        background-color: rgb(208, 56, 81) ;
+       }
+    /* 50%{
+        background-color: black;
+    } */
+    100%{
+        background-color: rebeccapurple;
     }
+
 }
 /* div:hover{
     background-color: pink;
